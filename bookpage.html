@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Book Catalogue Page</title>
+        <style>
+          .hd{
+            font-family:'Times New Roman', Times, serif;
+            text-align:center;
+            font-size:40px;
+          }
+          .tit{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-weight:bold;
+          }
+          table{
+            width:100%;
+            text-align:center;
+            border-collapse:collapse;
+            background-color:white;
+          }
+          th,td{
+            padding:10px;
+            border:2px solid black;
+          }
+          th{
+            background-color: #c9a7ff;
+            font-size:25px;
+          }
+          .btn{
+            background-color:orange;
+            color:white;
+            padding:6px 8px;
+            text-decoration:none;
+            border-radius:5px;
+            font-size:14px;
+            border:none;
+            font-weight:bold;
+          }
+          .btn:hover{
+            cursor:pointer;
+            background-color:rgb(226, 186, 111);
+            transform:scale(1.1);
+            
+          }
+          img{
+            width:120px;
+            height:180px;
+            object-fit:cover;
+          }
+          .image{
+            transition:transform 0.3s ease;
+
+          }
+          .image:hover{
+            transform:scale(1.2);
+          }
+          body{
+            background-color:  #baaae5;
+          }
+          .dat{
+            font-size:20px;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+          .name{
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight:bold;
+            text-decoration:underline;
+            font-size:24px;
+          }
+        </style>
+
+    </head>
+    <body>
+        <h2 class="hd">BOOK CATALOGUE PAGE</h2>
+        <table>
+        
+        <tr class="tit">
+            <th>COVER PAGE</th>
+            <th>AUTHOR</th>
+            <th>PUBLISHER</th>
+            <th>COST</th>
+            <th>SHOP</th>
+        </tr>
+        <tr class="dat">
+            <td class="name"><img class="image" src="https://m.media-amazon.com/images/I/817HaeblezL._AC_UF1000,1000_QL80_.jpg" alt="Atomic Habits">
+            <br>
+            Atomic Habits</td>
+            <td>James Clear</td>
+            <td>Avery</td>
+            <td>₹720</td>
+            <td><button class="btn" onclick="alert('Do You Want to Add the Product To Cart')">Add To Cart</button>
+        <br>&#11088;&#11088;&#11088;&#11088;</td></tr>
+        <tr class="dat">
+            <td class="name"><img class="image" src="https://m.media-amazon.com/images/I/71f6DceqZAL.jpg" alt="Thinking Fast And Slow">
+             <br>
+            Thinking Fast And Slow</td>
+            <td>Daniel Kahneman</td>
+            <td>Farrar,Straus and Giroux</td>
+            <td>₹494</td>
+            <td><button class="btn" onclick="alert('Do You Want to Add the Product To Cart')">Add To Cart</button>
+        <br>&#11088;&#11088;&#11088;</td></tr>
+        <tr class="dat">
+            <td class="name"><img class="image" src="https://bookstech.in/cdn/shop/products/Psychology-of-money-bookstech.in.jpg?v=1639237062" alt="The Psychology Of Money">
+             <br>
+            The Psychology Of Money</td>
+            <td>Morgan Housel</td>
+            <td>Harriman House</td>
+            <td>₹449</td>
+            <td><button class="btn" onclick="alert('Do You Want to Add the Product To Cart')">Add To Cart</button>
+        <br>&#11088;&#11088;&#11088;&#11088;&#11088;</td>
+      </tr>
+        <tr class="dat">
+            <td class="name"><img class="image" src="https://m.media-amazon.com/images/I/71din4TLubL._UF1000,1000_QL80_.jpg" alt="Deep Work">
+             <br>
+            Deep Work</td>
+            <td>Cal Newport</td>
+            <td>Grand Central Publishing</td>
+            <td>₹200</td>
+            <td><button class="btn" onclick="alert('Do You Want to Add the Product To Cart')">Add To Cart</button>
+        <br>&#11088;&#11088;&#11088;&#11088;</td>
+      </tr>
+        <tr class="dat">
+            <td class="name"><img class="image" src="https://m.media-amazon.com/images/I/71vK0WVQ4rL._AC_UF1000,1000_QL80_.jpg" alt="How To Win Friends & Influence People">
+            <br>
+            How To Win Friends & Influence People</td>
+             <td>Dale Carnegie</td>
+            <td>Simon & Schuster</td>
+            <td>₹399</td>
+            <td><button class="btn" onclick="alert('Do You Want to Add the Product To Cart')">Add To Cart</button>
+        <br>&#11088;&#11088;&#11088;</td>
+      </tr>
+        <tr class="dat">
+            <td class="name"><img class="image" src="https://cdn.penguin.co.in/wp-content/uploads/2025/01/9781846048708.jpg" alt="Man's Search For Meaning">
+             <br>
+            The Man's Search For Meaning</td>
+            <td>Viktor E.Franki</td>
+            <td>Beacon Press</td>
+            <td>₹165</td>
+            <td><button class="btn" onclick="alert('Do You Want to Add the Product To Cart')">Add To Cart</button>
+        <br>&#11088;&#11088;&#11088;</td>
+      </tr>
+        <tr class="dat">
+            <td class="name"><img class="image" src="https://m.media-amazon.com/images/I/713jIoMO3UL._AC_UF1000,1000_QL80_.jpg" alt="SAPIENS : A BRIEF HISTORY OF HUMANKIND">
+             <br>
+             SAPIENS : A BRIEF HISTORY OF HUMANKIND
+            </td>
+            <td>Yuval Noah Harari</td>
+            <td>Harvill Secker</td>
+            <td>₹199</td>
+            <td><button class="btn" onclick="alert('Do You Want to Add the Product To Cart')">Add To Cart</button>
+            <br>&#11088;&#11088;&#11088;</td>
+        </tr>
+        
+        </table>
+    </body>
+</html>
